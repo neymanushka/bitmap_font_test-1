@@ -56,7 +56,6 @@ var Test;
 					}
                     this.app.ticker.add(function (delta) {
                         text2.text = counter.toFixed(1).toString();
-                        text21.text = counter.toFixed(1).toString();
                         counter += 0.1;
 						gfxUpdate(text2,text2Graphics);
                     });
